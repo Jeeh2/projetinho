@@ -8,6 +8,7 @@
 
 
 nav{
+    /*posicionamento da nav*/
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -18,12 +19,14 @@ nav{
 }
 
 .ul-navBar{    
+    /*posicionamento do espaço do menu*/
     display: flex;
     width: 60%;
     margin: 6%;
 }
 
 .logo{
+    /*posicionamento do logo na nav*/
     display: flex;
     position: relative;
     width: 7%;
@@ -34,6 +37,7 @@ nav{
 }
 
 .navbar{
+    /*posicionamento do espaço do menu*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,12 +53,14 @@ nav{
 }
 
 .body-banner{
+    /*posicionamento do banner promocional*/
     display: flex;
     width: 100%;
     position: static;
 }
 
 .formulario{
+    /*posicionamento do card do formulário*/
     background: #F5F5F5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;  
@@ -67,7 +73,7 @@ nav{
 }
 
 h2{
-    
+    /*posicionamento do h2 do formulário*/
     justify-content: space-around;
     display: block;
     padding-left: 5%;
@@ -81,6 +87,7 @@ h2{
 }
 
 #form-input-name{
+    /*posicionamento do primeiro input do formulário*/
     box-sizing: border-box;
     width: 360px;
     height: 47px;
@@ -91,6 +98,7 @@ h2{
 }
 
 #form-input-email{
+    /*posicionamento do segundo input do formulário*/
     box-sizing: border-box;
     width: 360px;
     height: 47px;
@@ -102,6 +110,7 @@ h2{
 
 
 .footer{
+    /*posicionamento do footer*/
     display: flex;
     flex-direction: row;
     align-items: center ;
@@ -114,6 +123,7 @@ h2{
 }
 
 .icons{
+    /*posicionamento dos icones no footer*/
     display: flex;
     flex-direction: row;
     width: 12%;
@@ -133,6 +143,7 @@ h2{
 }*/
 
 .logotipo-footer{
+    /*posicionamento do logo no footer*/
     display: flex;
     padding-left: 2%;
     width: 10%;
