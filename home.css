@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+   
+   
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    max-height: 40%;
+    background-color: #FCBA98;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ul-navBar{    
+    display: flex;
+    width: 60%;
+    margin: 6%;
+}
+
+.logo{
+    display: flex;
+    position: relative;
+    width: 7%;
+    right: 4%;
+    top: 50%;
+    
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    
+    color: #653622;
+    
+}
+
+.body-banner{
+    display: flex;
+    width: 100%;
+    position: static;
+}
+
+.formulario{
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;  
+    position: absolute;
+    top: 88%;
+    left: 10%;
+    width: 421px;
+    height: 447px;
+    
+}
+
+h2{
+    
+    justify-content: space-around;
+    display: block;
+    padding-left: 5%;
+    padding-top: 6%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #895033;
+}
+
+#form-input-name{
+    box-sizing: border-box;
+    width: 360px;
+    height: 47px;
+    background: #F5F5F5;
+    border: 1px solid #E39974;
+    border-radius: 58px;
+
+}
+
+#form-input-email{
+    box-sizing: border-box;
+    width: 360px;
+    height: 47px;
+    background: #F5F5F5;
+    border: 1px solid #E39974;
+    border-radius: 58px;
+}
+
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background:  #FCBA98;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    width: 12%;
+    padding-left: 30%;
+    justify-content: space-around;
+    
+}
+
+/*.footer-left{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 30%;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10%;
+}*/
+
+.logotipo-footer{
+    display: flex;
+    padding-left: 2%;
+    width: 10%;
+    
+
+
+}
+
+
