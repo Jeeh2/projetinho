@@ -25,24 +25,25 @@ que é a parte superior da minha página*/
 header{
     height: 170px;
     background-color: #FCBA98;
-
     justify-content: space-between;
-    
-   
-
+ 
 }
 
 .menu a{
     position: relative;
     left: 50%;
-    
-    background-color: rgb(240, 245, 245);
+    top: 8%;
     color: #653622;
     text-decoration: none;
     padding-right: 30px;
     font-size: 16px;
     font-weight: 700;
     
+}
+
+.ul-menu{
+    margin-top: -4%;
+   
 }
 
 
@@ -85,14 +86,13 @@ header{
 .logo{
     /*posicionamento do logo na nav*/
     position: relative;
-    left: 1%;
-    padding-top: 3%;
-    width: 10%;
-   
+    top: 8%;
+    left: 2%;
+}
 
-    background-color: aqua;
-    
-
+#logotipo{
+    width: 94px;
+    height: 113px;
 }
 
 
@@ -115,10 +115,11 @@ header{
 
 .body-banner{
     /*posicionamento do banner promocional*/
-    display: flex;
-    width: 100%;
-    position: static;
+    
+
+    margin-top: -1%;
 }
+
 
 .formulario{
     /*posicionamento do card do formulário*/
@@ -126,10 +127,10 @@ header{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;  
     position: absolute;
-    top: 88%;
+    top: 80%;
     left: 10%;
     width: 421px;
-    height: 447px;
+    height: 450px;
     
 }
 
@@ -138,7 +139,7 @@ h2{
     justify-content: space-around;
     display: block;
     padding-left: 5%;
-    padding-top: 6%;
+    padding-top: 4%;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -147,8 +148,10 @@ h2{
     color: #895033;
 }
 
-#form-input-name{
+#last_name{
     /*posicionamento do primeiro input do formulário*/
+    margin-top: 3%;
+    margin-left: 5%;
     box-sizing: border-box;
     width: 360px;
     height: 47px;
@@ -158,8 +161,10 @@ h2{
 
 }
 
-#form-input-email{
+#email{
     /*posicionamento do segundo input do formulário*/
+    margin-top: 5%;
+    margin-left: 5%;
     box-sizing: border-box;
     width: 360px;
     height: 47px;
@@ -168,49 +173,99 @@ h2{
     border-radius: 58px;
 }
 
+#company{
+    margin-top: 5%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    width: 360px;
+    height: 47px;
+    background: #F5F5F5;
+    border: 1px solid #E39974;
+    border-radius: 58px;
+}
 
-
-.footer{
-    /*posicionamento do footer*/
-    display: flex;
-    flex-direction: row;
-    align-items: center ;
-    position: absolute;
-    width: 100%;
-    height: 20%;
-    background:  #FCBA98;
-    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+#btn{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-family:'Roboto', sans-serif;
+    width: 133px;
+    height: 43px;
+    background: #653622;
+    border-radius: 55px;  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F5F5F5;
     
 }
 
-.icons{
-    /*posicionamento dos icones no footer*/
-    display: flex;
-    flex-direction: row;
-    width: 12%;
-    padding-left: 30%;
-    justify-content: space-around;
+#termo{
+
+    margin-left: 5%;
     
 }
 
-/*.footer-left{
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    width: 30%;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 10%;
-}*/
+#promo{
+    margin-left: 5%;
+}
 
-.logotipo-footer{
-    /*posicionamento do logo no footer*/
-    display: flex;
-    padding-left: 2%;
-    width: 10%;
+p, label{
     
-
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
 
 }
 
 
+
+
+    .footer{
+        /*posicionamento do footer*/
+        display: flex;
+        flex-direction: row;
+        align-items: center ;
+        position: absolute;
+        width: 100%;
+        height: 20%;
+        background:  #FCBA98;
+        box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+        
+    }
+    
+    .icons{
+        /*posicionamento dos icones no footer*/
+        display: flex;
+        flex-direction: row;
+        width: 12%;
+        padding-left: 40%;
+        justify-content: space-around;
+    }
+        
+    
+    
+    /*.footer-left{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 30%;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 10%;
+    }*/
+    
+    .logotipo-footer{
+        /*posicionamento do logo no footer*/
+        display: flex;
+        padding-left: 2%;
+        width: 10%;
+        
+    
+    
+    }
+
+    

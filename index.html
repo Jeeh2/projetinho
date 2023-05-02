@@ -18,7 +18,7 @@
             
             
                 <div class="menu">-->
-                    <div class="logo"><img  src="imagem/Logo.svg" alt=""></div>
+                    <div class="logo"><img id="logotipo" src="imagem/Logo.svg" alt=""></div>
                 <nav class="menu">
                     
                    
@@ -44,46 +44,74 @@
             <img src="imagem/imgBodyHome.png" alt="imagem de mulher usando base no rosto"><!--essa é a imgem do body e não consegui posicionar direito-->
             
         </div>
+    </section>
+
+    <main>
+        
        
 <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 
    
-    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+    <form class="formulario" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+        <h2>Faça o seu Cadastro no nosso site 
+            para receber novidades</h2>
+        
     
     <input type=hidden name="oid" value="00DDo000001A4Hz">
     <input type=hidden name="retURL" value="http://">
     
     
-    <label for="last_name">Sobrenome</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+    <input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
     
-    <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+    <input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
     
-    <label for="company">Empresa</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+    </label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
     
-    <input type="submit" name="submit">
+    <input id="btn" type="submit" name="submit"></br>
+</br>
+
+     
+
+    
+    <input type="checkbox" id="termo" name="concordo" required>
+      <label  for="concordo">Li e  Concordo com os Termos de Privacidade.</label></br>
+
+      <input type="checkbox" id="promo" name="promo" required>
+      <label  for="promo">Aceito Receber E-mails com Propagandas e Promoções.</label>
+    
+    
     
     </form>
+    <div> 
+        
+    </div>
     
-
+   
     
    
         
-    </section>
+    
     
     
     <footer>
         <div class="footer">
             <span class="logotipo-footer">
+            
                 <a class="footer-left" href=""><img src="imagem/Logo.svg" alt=""></a>
-            </span>
+            
+        </span>
+  
             <span class="icons">
                 <a href=""><img class="img-centro" src="imagem/iconFacebook.png"  alt="Icon Facebook"></a>
                 <a href=""><img "img-centro" src="imagem/iconLinkedin.png"  alt="Icon Linkedin"></a>
                 <a href=""><img "img-centro" src="imagem/iconInstagram.png" alt="Icon Instagram"></a>
                 <a href=""><img "img-centro" src="imagem/iconTwitter.png"   alt="Icon Twitter"></a>
             </span>
+     
 
         </div>
     </footer>
+</main>
 </body>
 </html>
